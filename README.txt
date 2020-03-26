@@ -1,7 +1,7 @@
 ID:315154864
 Name: ron zeidman
 Git: ZeidmanRon
-Link: https://sise-web-development-environments.github.io/assignment1-ZeidmanRon/#about
+Link: https://sise-web-development-environments.github.io/assignment1-ZeidmanRon/
 
 Extra explenations:
 I.the like button does not work in fire-fox browser.
