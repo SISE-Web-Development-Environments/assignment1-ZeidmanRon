@@ -80,6 +80,13 @@ nav a::before {
   text-align: center;
 }
 
+ol {
+  text-align: left;
+  margin-bottom: 5%;
+
+  margin-left: 20%;
+  margin-right: 20%;
+}
 nav a:hover::before {
   width: 100%;
 }
@@ -111,7 +118,7 @@ body {
   align-items: baseline;
   flex-wrap: wrap;
   flex-direction: row;
-  text-align: lef t;
+  text-align: left;
 }
 
 * {
@@ -231,4 +238,49 @@ body {
   to {
     opacity: 1;
   }
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 500px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
+
+.emoji {
+  background-color: transparent;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 3px;
 }

@@ -21,7 +21,7 @@
                     <li><a href="#playlist">My Playlist</a></li>
                     <li><a href="#like">Like</a></li>
                     <li><a href="#qrcoder">QR code</a></li>
-                    <li><a href="#QA">Q&A</a></li>
+                    <li><a href="#spa">Q&A</a></li>
                     <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </nav>
@@ -177,86 +177,148 @@
             <br>
             <h1>QR code</h1>
             <p>
-                QRcode link or so
-
+                and their is my site's Qr-code:<br>
+                <img src="qrCode.png" style="width: 100%;">
             </p>
         </div>
     </div>
-    <div class="QA-Area" id="QA">
+    <div class="QA-Area" id="spa">
         <div class="text-part">
             <br>
             <br>
             <br>
             <br>
             <br>
-            <h1>Q&A:</h1>
+            <h1>Qustions & Answers:</h1>
         </div>
         <div class="text-part2">
-            <p>
+            <div class="text-part" style="left: 80px;">
                 <h4>Q1:What are the Three main diffrences between web1,web2 and web3 </h4><br>
-            </p>
-            <div class="text-part2">
-                <h5>Web 1.0</h5>
-                It is the “readable” phrase of the World Wide Web with flat data. In Web 1.0, there is only limited
-                interaction between sites and web users. Web 1.0 is simply an information portal where users passively
-                receive information without being given the opportunity to post reviews, comments, and feedback.<br>
             </div>
-            <div class="text-part2">
+            <ol type="i">
+                <li style="width: 70%;">
+                    <h5>Web 1.0</h5>
+                    It is the “readable” phrase of the World Wide Web with flat data. In Web 1.0, there is only limited
+                    interaction between sites and web users. Web 1.0 is simply an information portal where users
+                    passively
+                    receive information without being given the opportunity to post reviews, comments, and feedback.<br>
+                </li>
+                <li>
+                    <h5>Web 2.0</h5>
+                    It is the “writable” phrase of the World Wide Web with interactive data. Unlike Web 1.0, Web 2.0
+                    facilitates
+                    interaction between web users and sites, so it allows users to interact more freely with each other.
+                    Web
+                    2.0
+                    encourages participation, collaboration, and information sharing. Examples of Web 2.0 applications
+                    are
+                    Youtube, Wiki, Flickr, Facebook, and so on.<br>
+                </li>
+                <li>
+                    <h5>Web 3.0</h5>
+                    It is the “executable” phrase of Word Wide Web with dynamic applications, interactive services, and
+                    “machine-to-machine” interaction. Web 3.0 is a semantic web which refers to the future. In Web 3.0,
+                    computers can interpret information like humans and intelligently generate and distribute useful
+                    content
+                    tailored to the needs of users. One example of Web 3.0 is Tivo, a digital video recorder. Its
+                    recording
+                    program can search the web and read what it finds to you based on your preferences.<br>
+                </li>
+            </ol>
+            <div class="text-part">
                 <br>
-                <h5>Web 2.0</h5>
-                It is the “writable” phrase of the World Wide Web with interactive data. Unlike Web 1.0, Web 2.0
-                facilitates
-                interaction between web users and sites, so it allows users to interact more freely with each other. Web
-                2.0
-                encourages participation, collaboration, and information sharing. Examples of Web 2.0 applications are
-                Youtube, Wiki, Flickr, Facebook, and so on.<br>
-            </div>
-            <div class="text-part2">
-                <h5>Web 3.0</h5>
-                It is the “executable” phrase of Word Wide Web with dynamic applications, interactive services, and
-                “machine-to-machine” interaction. Web 3.0 is a semantic web which refers to the future. In Web 3.0,
-                computers can interpret information like humans and intelligently generate and distribute useful content
-                tailored to the needs of users. One example of Web 3.0 is Tivo, a digital video recorder. Its recording
-                program can search the web and read what it finds to you based on your preferences.<br>
-            </div>
-            <p>
+                <br>
+                <br>
+                <br>
                 <h4>Q2: search for Medicines reactions/side effects Use-Case</h4><br>
-            </p>
-            <div class="text-part2">
-                <h5>Web 1.0</h5>
-                The client would need to recall a URL highlighting a site discussing Medicines reactions for instance -
-                www.med.com/penicillin/symptoms.<br>
-
             </div>
-            <div class="text-part2">
+            <ol type="i">
+
+                <li>
+                    <h5>Web 1.0</h5>
+                    The client would need to recall a URL highlighting a site discussing Medicines reactions for
+                    instance -
+                    www.med.com/penicillin/symptoms.<br>
+                </li>
+                <li>
+                    <h5>Web 2.0</h5>
+                    The client would have the option to look up for the website through a web crawler that files pages
+                    as
+                    per the labels they contain. in this manner, a quest for "penicillin symptoms" would prompt site
+                    pages
+                    containing the pursuit catchphrases together.<br>
+                </li>
+                <li>
+                    <h5>Web 3.0</h5>
+                    Similarly to web2, the client would look "penicillin symptoms" in a web crawler. However this time
+                    he
+                    will be lead to site pages that have a solid semantic association in their content to the watchwords
+                    and
+                    their blend.<br>
+                </li>
+            </ol>
+
+
+
+
+        </div>
+    </div>
+    <section class="section" id="contact">
+        <div class="contact-area" id="contact">
+            <div class="text-part">
                 <br>
-                <h5>Web 2.0</h5>
-                The client would have the option to look up for the website through a web crawler that files pages as
-                per the labels they contain. in this manner, a quest for "penicillin symptoms" would prompt site pages
-                containing the pursuit catchphrases together.<br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1>Contact Me</h1>
+                <p>
+                    To anyone who wants to send a review on the website, you are more then invited to do so! :)
+                </p>
+                <div class="contact-form">
+                    <form id="contact-form" method="post" enctype="text/plain" onsubmit="addEmoji()">
+                        <p>
+                            <input name="Sender" type="text" class="form-control" placeholder="Your Name" id="Sender"
+                                required=""><br>
+                        </p>
+                        <p>
+                            <input id="Subject" name="Name" type="text" class="form-control" placeholder="Subject"
+                                required=""><br>
+                        </p>
+                        <p>
+                            <textarea id="Message" name="Message" class="form-control" placeholder="Message" rows="4"
+                                required=""></textarea><br>
+                        </p>
+                        <p>
+                            <label for="emojis">Pick emoji:</label>
+                            <select class="emoji" id="emoji_selector">
+                                <option>🙂</option>
+                                <option>😕</option>
+                                <option>😮</option>
+                                <option>🤘</option>
+                                <option>👎</option>
+                            </select>
+                        </p>
+                        <input type="submit" class="form-control submit" value="SEND MESSAGE">
 
+                    </form>
+                </div>
             </div>
-            <div class="text-part2">
-                <h5>Web 3.0</h5>
-                Similarly to web2, the client would look "penicillin symptoms" in a web crawler. However this time he
-                will be lead to site pages that have a solid semantic association in their content to the watchwords and
-                their blend.<br>
-            </div>
-        </div>
-    </div>
-    <div class="contact-area" id="contact">
-        <div class="text-part">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <h1>Contact Me</h1>
-            <p>
-                Email messege
-            </p>
-        </div>
-    </div>
+            <script>
+                function addEmoji() {
+                    const emoji = document.getElementById("emoji_selector").value;
+                    const message = document.getElementById("Message").value + " " + emoji;
+                    const email = document.getElementById("Sender").value
+                    const subject = document.getElementById("Subject").value
+                    location.href = "mailto:ronze@post.bgu.ac.il?subject=" + subject + "&body=From - " + email + "%0D%0A" + message;
+                    event.preventDefault()
+                }
+            </script>
+    </section>
+
+
+
+
 
     <script type="text/javascript">
         $(function () {
