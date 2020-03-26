@@ -1,193 +1,307 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+    <title> Ron's Website! </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
 </head>
+
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v6.0"></script>
+    <header>
+        <div class="container">
+            <img src="../BestLogo2T.png" alt="logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#photos">My Photos</a></li>
+                    <li><a href="#playlist">My Playlist</a></li>
+                    <li><a href="#like">Like</a></li>
+                    <li><a href="#qrcoder">QR code</a></li>
+                    <li><a href="#QA">Q&A</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="about-area" id="about">
+        <div class="text-part">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>About Area</h1>
+            <p>
+                Hey, my name is Ron, I'm a student to Information Systems and Software Engineering in Ben Gurion
+                University.<br>
+                Thats the first website I'm building from scratch since Highschool, maybe thats why im pretty excited
+                ^_^<br>
+                a litle more about my self, I'm 20 years old, former basketball player and a model.<br>
+                I have 3 little beautiful sisters and 2 beautiful parents.<br>
+                my favorite activities are surfing, playing basketball, Extreme sports and playing League of Legends
+                with friends<br>
+                (don't worry yasuo is not my main).<br>
+                My expectation from that course is to have the skills and knowledge to build a fullstack website.<br>
+                The most difficult part was that there are many ways to design the website... I just couldn't decide by
+                myself.<br> Hope you'll enjoy my website :)
+            </p>
+        </div>
+    </div>
+    <div class="photos-area" id="photos">
+        <div class="text-part">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>My Photos</h1>
+            <p>
+                there are some pictures of my family, friends and I (one of them is me writing the very text your
+                reading ;P)
+            </p>
+            <div class="slideshow-container">
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="ganitush.jpg" style="width:50%">
+                </div>
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
+                <div class="mySlides fade">
+                    <img src="Family.jpg" style="width:50%">
+                </div>
 
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
+                <div class="mySlides fade">
+                    <img src="paradive1.jpg" style="width:50%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="paradive2.jpg" style="width:50%">
+                </div>
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
+                <div class="mySlides fade">
+                    <img src="racing1.jpg" style="width:50%">
+                </div>
 
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
+                <div class="mySlides fade">
+                    <img src="basketball.jpg" style="width:50%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="Team.jpg" style="width:50%">
+                </div>
 
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+                <div class="mySlides fade">
+                    <img src="Team1.jpg" style="width:50%">
+                </div>
 
+                <div class="mySlides fade">
+                    <img src="Friends.jpg" style="width:50%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="modeling.jpg" style="width:50%">
+                </div>
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+                <div class="mySlides fade">
+                    <img src="messi.jpg" style="width:50%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="Working.jpg" style="width:50%">
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
+                <span class="dot" onclick="currentSlide(11)"></span>
+                <span class="dot" onclick="currentSlide(12)"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="playlist-area" id="playlist">
+        <div class="text-part">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>My Playlist</h1>
+            <p>
+                my favorite playlist is:<br>
+                <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+            </p>
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/videoseries?list=PLRhoq7Y_BJqWVHXLk0Dtgu8MAVm5krfQI" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+    </div>
+    <div class="like-area" id="like">
+        <div class="text-part">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>Like</h1>
+            <p>
+                Did you have good time on my website? Let me know<br>
+            </p><br>
+            <div class="fb-like" data-href="http://127.0.0.1:5500/myWeb.html" data-width="" data-layout="standard"
+                data-action="like" data-size="small" data-share="true"></div>
+
+        </div>
+    </div>
+    <div class="qrcoder-area" id="qrcoder">
+        <div class="text-part">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>QR code</h1>
+            <p>
+                QRcode link or so
+
+            </p>
+        </div>
+    </div>
+    <div class="QA-Area" id="QA">
+        <div class="text-part">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>Q&A:</h1>
+        </div>
+        <div class="text-part2">
+            <p>
+                <h4>Q1:What are the Three main diffrences between web1,web2 and web3 </h4><br>
+            </p>
+            <div>
+                <h5>Web 1.0</h5>
+                It is the “readable” phrase of the World Wide Web with flat data. In Web 1.0, there is only limited
+                interaction between sites and web users. Web 1.0 is simply an information portal where users passively
+                receive information without being given the opportunity to post reviews, comments, and feedback.<br>
+            </div>
+            <div>
+                <br>
+                <h5>Web 2.0</h5>
+                It is the “writable” phrase of the World Wide Web with interactive data. Unlike Web 1.0, Web 2.0
+                facilitates
+                interaction between web users and sites, so it allows users to interact more freely with each other. Web
+                2.0
+                encourages participation, collaboration, and information sharing. Examples of Web 2.0 applications are
+                Youtube, Wiki, Flickr, Facebook, and so on.<br>
+            </div>>
+            <div>
+                <h5>Web 3.0</h5>
+                It is the “executable” phrase of Word Wide Web with dynamic applications, interactive services, and
+                “machine-to-machine” interaction. Web 3.0 is a semantic web which refers to the future. In Web 3.0,
+                computers can interpret information like humans and intelligently generate and distribute useful content
+                tailored to the needs of users. One example of Web 3.0 is Tivo, a digital video recorder. Its recording
+                program can search the web and read what it finds to you based on your preferences.<br>
+            </div>
+            <p>
+                <h4>Q2: search for Medicines reactions/side effects Use-Case</h4><br>
+            </p>
+            <div>
+                <h5>Web 1.0</h5>
+                The client would need to recall a URL highlighting a site discussing Medicines reactions for instance -
+                www.med.com/penicillin/symptoms.<br>
+
+            </div>
+            <div>
+                <br>
+                <h5>Web 2.0</h5>
+                The client would have the option to look up for the website through a web crawler that files pages as
+                per the labels they contain. in this manner, a quest for "penicillin symptoms" would prompt site pages
+                containing the pursuit catchphrases together.<br>
+
+            </div>
+            <div>
+                <h5>Web 3.0</h5>
+                Similarly to web2, the client would look "penicillin symptoms" in a web crawler. However this time he
+                will be lead to site pages that have a solid semantic association in their content to the watchwords and
+                their blend.<br>
+            </div>
+        </div>
+    </div>
+    <div class="contact-area" id="contact">
+        <div class="text-part">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>Contact Me</h1>
+            <p>
+                Email messege
+            </p>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            $("#nav a").click(function (e) {
+                e.preventDefault();
+                $('html,body').scrollTo(this.hash, this.hash);
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).scroll(function () {
+            $('#menu').toggle($(this).scrollTop() > 1000)
+        });​
+    </script>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        } 
+    </script>
+
 </body>
+
 </html>
